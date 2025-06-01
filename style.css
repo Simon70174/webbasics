@@ -1,20 +1,22 @@
+/* Grundlayout */
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #333;
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    line-height: 1.6;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-basis: 42rem;
-    flex-shrink: 1;
-    flex-grow: 0;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+
 img {
     display: block;
     width: 100%;
@@ -22,16 +24,17 @@ img {
 }
 .laufbalken {
     height: 5px;
-    background: linear-gradient(to right, #3498db, #9b59b6);
     width: 100%;
     max-width: 600px; /* Lauflinie hört bei 600px auf zu wachsen */
     margin: 0 auto 20px auto;
     border-radius: 3px;
-    animation: lauf-animation 2s linear infinite;
 }
 .wrapper {
     width: 100%;
     max-width: 1200px; /* Maximale Breite der Seite */
     margin: 0 auto;
     padding: 20px;
+}
+.inhalt {
+    text-align: center;
 }

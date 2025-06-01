@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beispielseite mit Semantik</title>
+  <link rel="stylesheet" href="teststyle.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Meine Beispielseite</h1>
+      <nav aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#">Start</a></li>
+          <li><a href="#">Über uns</a></li>
+          <li><a href="#">Leistungen</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Willkommen auf unserer Website</h2>
+        <p>Hier zeigen wir, wie man eine moderne und semantisch korrekte Website aufbaut.</p>
+        <a href="#mehr" class="cta-button">Mehr erfahren</a>
+      </div>
+    </section>
+
+    <section class="bild-text" id="mehr">
+      <div class="container flex">
+        <figure>
+          <img src="https://via.placeholder.com/400x250" alt="Beispielbild" />
+          <figcaption>Beispielbild zur Illustration</figcaption>
+        </figure>
+        <article>
+          <h3>Unsere Mission</h3>
+          <p>
+            Unsere Mission ist es, klar strukturierte, barrierefreie und moderne Websites zu entwickeln.
+            Dabei setzen wir auf sauberen Code und intuitive Benutzerführung.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <h3>Häufige Fragen</h3>
+        <details>
+          <summary>Was ist HTML5-Semantik?</summary>
+          <p>HTML5 bietet spezielle Tags wie <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code> und <code>&lt;aside&gt;</code>, die die Bedeutung des Inhalts klarer machen.</p>
+        </details>
+        <details>
+          <summary>Warum semantisches HTML?</summary>
+          <p>Es verbessert die Zugänglichkeit, Suchmaschinenoptimierung und die Wartbarkeit von Websites.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <nav aria-label="Sekundäre Navigation">
+        <ul>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+          <li><a href="#">AGB</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2025 Meine Beispielseite</p>
+    </div>
+  </footer>
+
+</body>
+</html>
