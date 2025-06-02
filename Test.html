@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            flex: auto; 
+        }
+    
+        html
+        {
+            font-family: Comic Sans MS;
+            background-color: rgb(64, 65, 65);
+        }
+        
+        header
+        {
+          color: black;
+          font-size: 2.2rem;
+          background-color: rgb(111, 111, 110);
+          margin: 0rem 0rem 1rem 0rem;
+        }
+
+        footer
+        {
+            color: rgb(0, 0, 0);
+            font-size: 2.5;
+            background-color: rgb(93, 93, 92);
+            margin: 1rem 0rem 0rem 0rem;
+        }
+
+        div
+        {
+            width: 60%;
+            border-radius: 2rem;
+            margin: 1rem; padding: 1rem;
+        }
+
+
+                /* Dropdown Button */
+        .dropbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 2px;
+        /*z-index: 1;*/
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {display: block;}
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+    </style>
+    <title>Test-Seite</title>
+</head>
+<body>
+
+        <header>
+            <p>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                        <a href="http://www.swu.de">SWU</a>
+                        <a href="http://www.youtube.de">YouTube</a>
+                        <a href="http://www.google.de">Google</a>
+                    </div>
+                </div>
+                <center>Test</center>
+            </p>
+
+            
+        </header>
+    <center>
+        <div style="background-color: rgb(108, 108, 108); ">
+            <div style="background-color: rgb(16, 64, 101); color: aliceblue; ">
+                <a href="http://www.swu.de"><img src="swu.png" height="30%" width="30%"></a>
+                <p>Hier gehts zur SWU</p>
+                <p>Verlass dich drauf!</p>  
+            </div>
+
+            <div style="margin: 1rem 0rem;">
+                <p>Hier kommt ein Text:</p>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer</p>
+            </div>
+
+        </div>
+        <footer>
+            <p>Das Ende der Webseite :)</p>
+        </footer>
+
+
+    </center>
+   
+</body>
+</html>
